@@ -2,10 +2,11 @@ body {
     min-height: 100vh;
     display: flex;
     flex-flow: column;
-    justify-content: space-between; /*not pushing to the end on column but works on row*/
-
+    justify-content: space-between; 
     flex: 1 1 auto;
     /*align-items: center;*/
+
+    font-family: 'roboto';
 }
 
 .header {
@@ -13,10 +14,15 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
+
+    color: #f9faf8;
+    background-color: #1F2937;
 }
 
 .logo {
-    
+    color: #f9faf8;
+    background-color: #1F2937;
+    font-size: 24px;
 }
 
 .header_links {
@@ -27,30 +33,52 @@ body {
     width: 20em;
 }
 
-.panel,
-.container,
-.testimonial,
-.footer {
-    display: flex;
-    justify-content: center;
+.panel {
+    color: #f9faf8;
+    background-color: #1F2937;
 }
 
-/*
-.container {
-    display: flex;
-    justify-content: center;
+.hero {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .testimonial {
-    display: flex;
-    justify-content: center;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.cta {
+    color: #f9faf8;
+    background-color: #3882f6;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
+    background-color: #1F2937;
+
 }
-*/
+
+.text {
+    color: #e5e7eb;
+    font-size: 18px;
+    ;
+}
+
+.panel,
+.container,
+.testimonial,
+.cta,
+.footer {
+    display: flex;
+    justify-content: center;
+}
 
 ul {
     display: flex;
