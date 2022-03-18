@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    
+}
+
+.header_links {
+    list-style: none;
+}
+
+.panel {
+
+}
+
+.panel_img {
+    width: 20em;
+}
+
+.footer {
+    
+}
