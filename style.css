@@ -91,8 +91,20 @@ body {
 }
 
 .cta {
+    display: flex;
+    flex-flow: row;
+    
     color: #f9faf8;
     background-color: #3882f6;
+
+    gap: 20em;
+    margin: 3em;
+    padding: 2em 5em;
+}
+
+.cta_hero {
+    font-size: 24px;
+    font-weight: 900;
 }
 
 .footer {
