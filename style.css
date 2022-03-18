@@ -1,12 +1,23 @@
 body {
     min-height: 100vh;
+    
+
     display: flex;
     flex-flow: column;
     justify-content: space-between; 
     flex: 1 1 auto;
-    /*align-items: center;*/
-
+    align-items: center;
+    
     font-family: 'roboto';
+}
+
+.panel,
+.container,
+.testimonial,
+.cta,
+.footer {
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -14,7 +25,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 0;
-
+    
     color: #f9faf8;
     background-color: #1F2937;
 }
@@ -26,7 +37,7 @@ body {
 }
 
 .header_links {
-    
+    /*do I need this container?*/    
 }
 
 .panel_img {
@@ -68,16 +79,6 @@ body {
 .text {
     color: #e5e7eb;
     font-size: 18px;
-    ;
-}
-
-.panel,
-.container,
-.testimonial,
-.cta,
-.footer {
-    display: flex;
-    justify-content: center;
 }
 
 ul {
