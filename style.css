@@ -16,7 +16,6 @@ body {
 
 .panel,
 .cards,
-.testimonial,
 .cta,
 .footer {
     display: flex;
@@ -69,11 +68,26 @@ body {
 }
 
 .testimonial {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    
     color: #1f2937;
     background-color: #e5e7eb;
+}
+
+.quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+
+.attribution {
+    display: flex;
+    justify-content: flex-end;
+    
+    font-size: 24px;
 }
 
 .cta {
