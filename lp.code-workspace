@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../css-exercises"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "landing_page"
+	}
+}
