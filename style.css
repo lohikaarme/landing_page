@@ -5,11 +5,10 @@ body {
     flex-flow: column nowrap;
     justify-content: space-between; 
     flex: 1 1 auto;
-    /*align-items: center;*/
     
     font-family: 'roboto';
 
-    margin:0;
+    margin: 0;
 }
 
 .panel,
@@ -26,7 +25,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     
-    padding: 1em 10em;
+    padding: 1em 20%;
     
     color: #f9faf8;
     background-color: #1F2937;
@@ -46,6 +45,17 @@ body {
 .hero {
     font-size: 48px;
     font-weight: 900;
+
+    padding: 0;
+}
+
+.hero_group {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+
+    max-width: 400px;
+    gap: 8px;    
 }
 
 .panel {
@@ -55,11 +65,14 @@ body {
     color: #f9faf8;
     background-color: #1F2937;
 
-    padding: 3em 10em;
+    gap: 5%;
+    padding: 3em 20%;
 }
 
 .panel_img {
-    width: 20em;
+    object-fit: cover;
+    height: 250px;
+    width: 500px;
 }
 
 .container {
@@ -71,7 +84,7 @@ body {
     font-size: 36px;
     font-weight: 900;
 
-    padding: 2em 12em;
+    padding: 2em 30%;
 }
 
 .cards {
@@ -92,7 +105,7 @@ body {
     justify-content: center;
     align-content: center;
     
-    padding: 3em 12em;
+    padding: 3em 30%;
 
     color: #1f2937;
     background-color: #e5e7eb;
@@ -120,7 +133,8 @@ body {
     color: #f9faf8;
     background-color: #3882f6;
 
-    margin: 3em 10em;
+    border-radius: 7px;
+    margin: 3em 20%;
     padding: 2em 5em;
 }
 
