@@ -1,9 +1,8 @@
 body {
     min-height: 100vh;
-    
 
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-between; 
     flex: 1 1 auto;
     /*align-items: center;*/
@@ -11,7 +10,6 @@ body {
     font-family: 'roboto';
 
     margin:0;
-
 }
 
 .panel,
@@ -20,13 +18,15 @@ body {
 .footer {
     display: flex;
     justify-content: center;
+
 }
 
 .header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0;
+    
+    padding: 1em 10em;
     
     color: #f9faf8;
     background-color: #1F2937;
@@ -38,22 +38,28 @@ body {
     font-size: 24px;
 }
 
-.header_links {
-    /*do I need this container?*/    
+/*.header_links {
+    do I need this container?  
 }
+*/
 
 .hero {
     font-size: 48px;
     font-weight: 900;
 }
 
-.panel_img {
-    width: 20em;
-}
-
 .panel {
+    display: flex;
+    justify-content: space-between;
+    
     color: #f9faf8;
     background-color: #1F2937;
+
+    padding: 3em 10em;
+}
+
+.panel_img {
+    width: 20em;
 }
 
 .container {
@@ -98,7 +104,7 @@ body {
     background-color: #3882f6;
 
     gap: 20em;
-    margin: 3em;
+    margin: 3em 10em;
     padding: 2em 5em;
 }
 
