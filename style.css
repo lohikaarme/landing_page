@@ -82,7 +82,7 @@ body {
     font-size: 36px;
     font-weight: 900;
     
-    padding: 30px 30%;
+    padding: 40px 30%;
 }
 
 .cards {
@@ -122,7 +122,7 @@ body {
 
 .quote {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -131,6 +131,9 @@ body {
     justify-content: flex-end;
     
     font-size: 24px;
+    font-weight: 600;
+
+    padding: 5px 0;
 }
 
 .cta {
@@ -144,7 +147,7 @@ body {
     
     border-radius: 7px;
     margin: 3em 20%;
-    padding: 2em 5em;
+    padding: 3em 5em;
 }
 
 .cta_hero {
@@ -152,14 +155,6 @@ body {
     font-weight: 900;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #1f2937;
-    
-}
 
 .text {
     color: #1f2937;
@@ -193,4 +188,15 @@ ul {
     padding: 0;
     margin: 0;
     gap: 1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    padding: 2em;
 }
