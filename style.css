@@ -70,7 +70,20 @@ body {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-    
+
+    padding: 2em 12em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #3882f6;
+
+    height: 40px;
+    width: 40px;
 }
 
 .testimonial {
@@ -79,6 +92,8 @@ body {
     justify-content: center;
     align-content: center;
     
+    padding: 3em 12em;
+
     color: #1f2937;
     background-color: #e5e7eb;
 }
@@ -99,11 +114,11 @@ body {
 .cta {
     display: flex;
     flex-flow: row;
-    
+    justify-content: space-between;
+
     color: #f9faf8;
     background-color: #3882f6;
 
-    gap: 20em;
     margin: 3em 10em;
     padding: 2em 5em;
 }
